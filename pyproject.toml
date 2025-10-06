@@ -1,0 +1,17 @@
+[project]
+name = "games-project-evseev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["games_project_evseev"]
+
+[project.scripts]
+VD-games = "games_project_evseev.scripts.VD_main:main"
