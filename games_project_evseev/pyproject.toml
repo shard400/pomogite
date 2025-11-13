@@ -22,4 +22,6 @@ VD-games = "scripts.VD_main:main"
 VD-even = "scripts.VD_even:main"
 VD-calc = "scripts.VD_calc:main"
 VD-gcd = "scripts.VD_gcd:main"
+VD-progression = "scripts.VD_progression:main"
+VD-prime = "scripts.VD_prime:main"
 
