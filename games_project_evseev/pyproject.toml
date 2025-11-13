@@ -20,3 +20,6 @@ dev = [
 [project.scripts]
 VD-games = "scripts.VD_main:main"
 VD-even = "scripts.VD_even:main"
+VD-calc = "scripts.VD_calc:main"
+VD-gcd = "scripts.VD_gcd:main"
+
